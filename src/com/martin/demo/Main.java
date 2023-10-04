@@ -2,7 +2,13 @@ package com.martin.demo;
 
 public class Main {
     public static void main(String[] args) {
-        devZero();
+
+        int forlooper = 0;
+
+        for (int i = 0; i < 10; i++) {
+
+            forlooper += i;
+        }
 
     }
 
